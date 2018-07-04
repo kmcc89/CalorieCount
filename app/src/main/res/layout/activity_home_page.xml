@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kevmc.caloriecounter.HomePage">
+
+    <Button
+        android:id="@+id/calorie_couter_button"
+        android:layout_width="234dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/food_button"
+        android:layout_alignLeft="@+id/food_button"
+        android:layout_alignStart="@+id/food_button"
+        android:layout_marginBottom="23dp"
+        android:text="@string/calorie_counter"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/food_button"
+        android:layout_width="234dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/activities_button"
+        android:layout_alignLeft="@+id/activities_button"
+        android:layout_alignStart="@+id/activities_button"
+        android:layout_marginBottom="29dp"
+        android:text="@string/food"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Button
+        android:id="@+id/activities_button"
+        android:layout_width="234dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/resources_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/activity"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <Button
+        android:id="@+id/resources_button"
+        android:layout_width="234dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:text="@string/resources"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/account"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/display_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/login_button"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:text="name display" />
+
+    <TextView
+        android:id="@+id/display_cal_allowance_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/calorie_couter_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/tv_cal_allowance_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_button"
+        android:layout_centerHorizontal="true"
+        android:text="Calorie Allowance"
+        android:textColor="@android:color/holo_blue_bright" />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/calorie_counter"
+        android:orderInCategory="100"
+        android:title="@string/calorie_counter"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/food"
+        android:orderInCategory="100"
+        android:title="@string/food"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/activities"
+        android:orderInCategory="100"
+        android:title="@string/activity"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/resources"
+        android:orderInCategory="100"
+        android:title="@string/resources"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        app:showAsAction="never"/>
+</menu>
